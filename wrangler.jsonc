@@ -6,14 +6,17 @@
     "binding": "ASSETS",
     "directory": "dist/public"
   },
-  "compatibility_date": "2025-05-08",
+  "compatibility_date": "2025-02-04",
   "compatibility_flags": [
     "nodejs_compat"
   ],
+  "observability": {
+    "enabled": true
+  },
   "keep_vars": true,
   "upload_source_maps": true,
   "ai": {
-    "binding": "AI"
+    "binding": "ai"
   },
   "analytics_engine_datasets": [
     {
@@ -24,7 +27,7 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "440ba33fed474eefa745e0c682916687" // IMPORTANT: Change this to your KV namespace ID
+      "id": "440ba33fed474eefa745e0c682916687"
     }
   ]
 }
